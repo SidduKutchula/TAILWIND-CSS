@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/tyle.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.1.16"
+  }
+}
